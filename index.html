@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hà Văn Huy</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 500px;
+            height: 500px;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        th {
+            font-size: 27px;
+        }
+
+        td {
+            font-size: 20px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="2">ĐĂNG KÝ</th>
+        </tr>
+
+        <tr>
+            <td style="margin-left: 500px;">Full name</td>
+            <td><input type="text" id="fname" name="firstname" size="35" placeholder="Nhập fullname"></td>
+        </tr>
+
+        <tr>
+            <td>Username</td>
+            <td><input type="text" id="fname" name="firstname" size="35" placeholder="Nhập tên"></td>
+        </tr>
+
+        <tr>
+            <td>Password</td>
+            <td><input type="text" id="fname" name="firstname" size="35" placeholder="Nhập mật khẩu"></td>
+        </tr>
+
+        <tr>
+            <td>Nhập lại Password</td>
+            <td><input type="text" id="fname" name="firstname" size="35" placeholder="Nhập lại mật khẩu"></td>
+        </tr>
+
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <label>
+                    <input type="radio" name="gender" id="male">Nam
+                </label>
+                <label>
+                    <input type="radio" name="gender" id="female">Nữ
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Ngày sinh</td>
+            <td>
+                <select name="day">
+                    <option value="Day1">Ngày 1</option>
+                    <option value="Day2">Ngày 2</option>
+                    <option value="Day3">Ngày 3</option>
+                </select>
+                <select name="month">
+                    <option value="Month1">Tháng 1</option>
+                    <option value="Month2">Tháng 2</option>
+                    <option value="Month3">Tháng 3</option>
+                </select>
+                <select name="year">
+                    <option value="Year2015">Năm 2015</option>
+                    <option value="Year2016">Năm 2016</option>
+                    <option value="Year2017">Năm 2017</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Địa chỉ</td>
+            <td>
+                <textarea name="" id="" cols="25" rows="3"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Avatar</td>
+            <td>
+                <input type="file" name="avarta">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Sở thích</td>
+            <td>
+                <input type="checkbox" name="WatchMovie" >Xem Phim
+                <input type="checkbox" name="Sport" >Thể Thao
+                <input type="checkbox" name="Web" >Web
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="2">
+                <input type="submit" value="Reset">
+                <input style="margin-left: 10px;" type="submit" value="OK">
+            </th>
+        </tr>
+    </table>
+</body>
+
+</html>
